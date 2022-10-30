@@ -3,7 +3,7 @@
 --- 
 
 
-### Nombre, apellido y ciudad de clientes de brasil 
+## Nombre, apellido y ciudad de clientes de brasil 
 
 ```
 select 
@@ -220,7 +220,11 @@ order by 1;
 
 </body>
 
-## Inner Join
+## Joins
+
+### Inner Join
+
+- Para cada orden se obtiene el id de la orden, la fecha, el id del producto y el nombre del producto.
 
 ```
 select 
@@ -666,7 +670,9 @@ order by 1;
 
 </body>
 
--- Left join
+###  Left join
+
+- Para cada orden se obtiene el el id de la orden, el nombre del agricultor y su apellido.
 
 ```
 select
@@ -1050,7 +1056,9 @@ order by 1;
 
 </body>
 
--- Multiples joins
+### Multiples joins
+
+- Para cada orden se obtiene el id de la orden, la fecha, el nombre y apellido del cliente al igual que el nombre y apellido del agricultor.
 
 ```
 select 
@@ -1623,9 +1631,11 @@ order by 1;
 </body>
 
 
-/* Avance 3 */ 
+## Subquery
 
--- Subquery en FROM. Nombre y apellido de los clientes que comparon lechuga
+### Subquery en FROM.
+
+- Nombre y apellido de los clientes que comparon lechuga
 
 ```
 Select
@@ -1654,7 +1664,9 @@ from (select o.order_id,
 
 </body> 
 
- -- Subquery en WHERE. Información sobre los agricultores pertenecientes al segmento "chico"
+### Subquery en WHERE
+
+- Información sobre los agricultores pertenecientes al segmento "chico"
  
  ```
 select 
@@ -1723,7 +1735,7 @@ group by 1;
 
 </body>
 
--- Query Anidada
+### Query Anidada
 
 ```
 SELECT
@@ -1764,7 +1776,9 @@ where country = "Argentina"
 
 </body>
 
--- CTE. Información de los agricultores "grandes"
+### CTE 
+
+- Información de los agricultores "grandes"
 
 ```
 with agricultores_grandes as (select * from agricultores where segment = "grande") 
@@ -2074,9 +2088,11 @@ order by order_id;
 </body>
 
 
--- Avance 4
+## Window functions
 
--- Partition. Clientes que más compran por ciudad
+### Partition
+
+- Clientes que más compran por ciudad
 
 ```
 with Clientes_por_ciudad as (select  concat(cl.name, " ", cl.lastname) as Nombre_Cliente, 
@@ -2336,7 +2352,9 @@ from Clientes_por_ciudad;
 </body>
 
 
--- CTE + Window Function. Dos productos más vendidos por cada agricultor
+### CTE + Window Function
+
+- Dos productos más vendidos por cada agricultor
 
 ```
 with window_rank as(
