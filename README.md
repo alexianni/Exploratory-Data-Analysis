@@ -1,5 +1,7 @@
 # SQL-Proyect
 
+- Description: In this project I worked with a database containing information about customers, orders, products, cities and farmers of a fictitious company engaged in the sale of agricultural products with the aim of  developing queries that help find information and make decisions.
+- Skill/technology: SQL, data exporation
 --- 
 
 
