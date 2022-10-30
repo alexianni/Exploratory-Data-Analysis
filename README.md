@@ -3,7 +3,7 @@
 --- 
 
 
-## Nombre, apellido y ciudad de clientes de brasil 
+### Nombre, apellido y ciudad de clientes de brasil 
 
 ```
 select 
@@ -1066,6 +1066,8 @@ left join agricultores a on a.farmer_id = o.farmer_id
 order by 1;
 ```
 
+- Output 
+
 <body>
 <table border="1">
 <tbody><tr>
@@ -1843,6 +1845,234 @@ right join ciudades_Mexico cm on cm.city_id = o.city_id
 right join Productos_junio2020 pj on pj.product_id = o.product_id
 order by order_id;
 ```
+- Output 
+
+<body>
+<table border="1">
+<tbody><tr>
+<td bgcolor="silver" class="medium">order_id</td>
+<td bgcolor="silver" class="medium">date_placed</td>
+<td bgcolor="silver" class="medium">price</td>
+<td bgcolor="silver" class="medium">units</td>
+<td bgcolor="silver" class="medium">city_id</td>
+<td bgcolor="silver" class="medium">client_id</td>
+<td bgcolor="silver" class="medium">farmer_id</td>
+<td bgcolor="silver" class="medium">product_id</td>
+<td bgcolor="silver" class="medium">city_id</td>
+<td bgcolor="silver" class="medium">name</td>
+<td bgcolor="silver" class="medium">country</td>
+<td bgcolor="silver" class="medium">product_id</td>
+<td bgcolor="silver" class="medium">name</td>
+<td bgcolor="silver" class="medium">date_farmed</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">2</td>
+<td class="normal" valign="top">2020-08-02</td>
+<td class="normal" valign="top">277</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">26</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">monterrey</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">2020-11-13</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">2020-12-11</td>
+<td class="normal" valign="top">267</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">1</td>
+<td class="normal" valign="top">16</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">1</td>
+<td class="normal" valign="top">cdmx</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">manzana</td>
+<td class="normal" valign="top">2020-06-29</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">2020-10-12</td>
+<td class="normal" valign="top">368</td>
+<td class="normal" valign="top">9</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">chihuahua</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">2020-11-13</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">2020-11-01</td>
+<td class="normal" valign="top">305</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">queretaro</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">calabaza</td>
+<td class="normal" valign="top">2020-11-03</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">2020-04-13</td>
+<td class="normal" valign="top">246</td>
+<td class="normal" valign="top">9</td>
+<td class="normal" valign="top">2</td>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">2</td>
+<td class="normal" valign="top">guanajuato</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">manzana</td>
+<td class="normal" valign="top">2020-06-29</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">2020-10-21</td>
+<td class="normal" valign="top">260</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">5</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">monterrey</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">2020-08-01</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">2020-04-16</td>
+<td class="normal" valign="top">331</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">leon</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">fresa</td>
+<td class="normal" valign="top">2020-10-11</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">2020-12-17</td>
+<td class="normal" valign="top">215</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">31</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">chihuahua</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">manzana</td>
+<td class="normal" valign="top">2020-06-29</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">2020-01-01</td>
+<td class="normal" valign="top">106</td>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">monterrey</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">2020-08-01</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">45</td>
+<td class="normal" valign="top">2020-06-21</td>
+<td class="normal" valign="top">416</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">32</td>
+<td class="normal" valign="top">2</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">7</td>
+<td class="normal" valign="top">chihuahua</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">limon</td>
+<td class="normal" valign="top">2020-12-13</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">57</td>
+<td class="normal" valign="top">2020-09-22</td>
+<td class="normal" valign="top">132</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">leon</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">3</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">2020-11-13</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">59</td>
+<td class="normal" valign="top">2020-04-27</td>
+<td class="normal" valign="top">159</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">1</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">1</td>
+<td class="normal" valign="top">cdmx</td>
+<td class="normal" valign="top">mexico</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">2020-08-01</td>
+</tr>
+</tbody></table>
+
+</body>
+
 
 -- Avance 4
 
@@ -1867,6 +2097,245 @@ rank() over(partition by Ciudad order by Total_Compras desc) as Ranking
 from Clientes_por_ciudad;
 ```
 
+- Output 
+
+<body>
+<table border="1">
+<tbody><tr>
+<td bgcolor="silver" class="medium">Nombre_Cliente</td>
+<td bgcolor="silver" class="medium">Ciudad</td>
+<td bgcolor="silver" class="medium">Total_compras</td>
+<td bgcolor="silver" class="medium">Ranking</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Marina Hernandez</td>
+<td class="normal" valign="top">brasilia</td>
+<td class="normal" valign="top">1086</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Francisco Merz</td>
+<td class="normal" valign="top">brasilia</td>
+<td class="normal" valign="top">664</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Mercedes Garcia</td>
+<td class="normal" valign="top">brasilia</td>
+<td class="normal" valign="top">398</td>
+<td class="normal" valign="top">3</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Rosario Arellano</td>
+<td class="normal" valign="top">brasilia</td>
+<td class="normal" valign="top">277</td>
+<td class="normal" valign="top">4</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jaime Moncalvo</td>
+<td class="normal" valign="top">brasilia</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">5</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Inaki Merk</td>
+<td class="normal" valign="top">brasilia</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">5</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Sebastian Castillo</td>
+<td class="normal" valign="top">buenos aires</td>
+<td class="normal" valign="top">772</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Elena Lechuga</td>
+<td class="normal" valign="top">buenos aires</td>
+<td class="normal" valign="top">750</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Mercedes Salas</td>
+<td class="normal" valign="top">cdmx</td>
+<td class="normal" valign="top">936</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Maite Beazar</td>
+<td class="normal" valign="top">cdmx</td>
+<td class="normal" valign="top">683</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Rodrigo Dieguez</td>
+<td class="normal" valign="top">cdmx</td>
+<td class="normal" valign="top">319</td>
+<td class="normal" valign="top">3</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Lea Blanco</td>
+<td class="normal" valign="top">cdmx</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">4</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Javier Guzman</td>
+<td class="normal" valign="top">chihuahua</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Irene Perez</td>
+<td class="normal" valign="top">guadalajara</td>
+<td class="normal" valign="top">1282</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Ana Cuellar</td>
+<td class="normal" valign="top">guadalajara</td>
+<td class="normal" valign="top">856</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Mario Mejia</td>
+<td class="normal" valign="top">guadalajara</td>
+<td class="normal" valign="top">730</td>
+<td class="normal" valign="top">3</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Juan Perez</td>
+<td class="normal" valign="top">guadalajara</td>
+<td class="normal" valign="top">520</td>
+<td class="normal" valign="top">4</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Diego Gonzalez</td>
+<td class="normal" valign="top">guadalajara</td>
+<td class="normal" valign="top">106</td>
+<td class="normal" valign="top">5</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Antonio Terraza</td>
+<td class="normal" valign="top">guanajuato</td>
+<td class="normal" valign="top">544</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Alejandra Diaz</td>
+<td class="normal" valign="top">guanajuato</td>
+<td class="normal" valign="top">113</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Juan Pablo Rodriguez</td>
+<td class="normal" valign="top">leon</td>
+<td class="normal" valign="top">1290</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Santiago Torres</td>
+<td class="normal" valign="top">merida</td>
+<td class="normal" valign="top">442</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Pablo Golio</td>
+<td class="normal" valign="top">merida</td>
+<td class="normal" valign="top">359</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jose Rodriguez</td>
+<td class="normal" valign="top">merida</td>
+<td class="normal" valign="top">133</td>
+<td class="normal" valign="top">3</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Imanol Hernandez</td>
+<td class="normal" valign="top">monterrey</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Andrea Teran</td>
+<td class="normal" valign="top">rio de janeiro</td>
+<td class="normal" valign="top">249</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Mikel Perez</td>
+<td class="normal" valign="top">rio de janeiro</td>
+<td class="normal" valign="top">211</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Erica Cano</td>
+<td class="normal" valign="top">san jose</td>
+<td class="normal" valign="top">1408</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Alberto Maca</td>
+<td class="normal" valign="top">san jose</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Diana Canales</td>
+<td class="normal" valign="top">santiago</td>
+<td class="normal" valign="top">1080</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Cristina Tellez</td>
+<td class="normal" valign="top">sao paolo</td>
+<td class="normal" valign="top">925</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Maria Nunez</td>
+<td class="normal" valign="top">sao paolo</td>
+<td class="normal" valign="top">NULL</td>
+<td class="normal" valign="top">2</td>
+</tr>
+</tbody></table>
+
+</body>
+
+
 -- CTE + Window Function. Dos productos más vendidos por cada agricultor
 
 ```
@@ -1890,3 +2359,296 @@ from window_rank
 where ranking in (1,2)
 order by Nombre_Agricultor, ranking;
 ```
+- Output 
+
+<body>
+<table border="1">
+<tbody><tr>
+<td bgcolor="silver" class="medium">Nombre_agricultor</td>
+<td bgcolor="silver" class="medium">Producto</td>
+<td bgcolor="silver" class="medium">Unidades_Vendidas</td>
+<td bgcolor="silver" class="medium">ranking</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Alejandro Torres</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Alejandro Torres</td>
+<td class="normal" valign="top">calabaza</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Ana Maca</td>
+<td class="normal" valign="top">papa</td>
+<td class="normal" valign="top">21</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Ana Maca</td>
+<td class="normal" valign="top">toronja</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Andrea Perez</td>
+<td class="normal" valign="top">jitomate</td>
+<td class="normal" valign="top">9</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Ari Salas</td>
+<td class="normal" valign="top">toronja</td>
+<td class="normal" valign="top">38</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Bernardo Castillo</td>
+<td class="normal" valign="top">papa</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Bernardo Castillo</td>
+<td class="normal" valign="top">aguacate</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Carlos Blanco</td>
+<td class="normal" valign="top">manzana</td>
+<td class="normal" valign="top">8</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Carlos Blanco</td>
+<td class="normal" valign="top">fresa</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Clara Beazar</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Clara Beazar</td>
+<td class="normal" valign="top">papaya</td>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Cristobal Nunez</td>
+<td class="normal" valign="top">pepino</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Cristobal Nunez</td>
+<td class="normal" valign="top">papa</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Daniel Dieguez</td>
+<td class="normal" valign="top">jitomate</td>
+<td class="normal" valign="top">16</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">David Merk</td>
+<td class="normal" valign="top">kiwi</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">David Merk</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">14</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Diego Diaz</td>
+<td class="normal" valign="top">pepino</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Diego Diaz</td>
+<td class="normal" valign="top">lechuga</td>
+<td class="normal" valign="top">10</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Fernando Perez</td>
+<td class="normal" valign="top">jitomate</td>
+<td class="normal" valign="top">24</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Fernando Perez</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Gabriela Guzman</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">33</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Gabriela Guzman</td>
+<td class="normal" valign="top">zanahoria</td>
+<td class="normal" valign="top">14</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jaime Merz</td>
+<td class="normal" valign="top">aguacate</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jaime Merz</td>
+<td class="normal" valign="top">manzana</td>
+<td class="normal" valign="top">13</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jorge Gonzalez</td>
+<td class="normal" valign="top">jitomate</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jorge Gonzalez</td>
+<td class="normal" valign="top">pepino</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jose Tellez</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">25</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Jose Tellez</td>
+<td class="normal" valign="top">pepino</td>
+<td class="normal" valign="top">6</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Juan Arellano</td>
+<td class="normal" valign="top">limon</td>
+<td class="normal" valign="top">22</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Juan Arellano</td>
+<td class="normal" valign="top">papa</td>
+<td class="normal" valign="top">20</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Maria Hernandez</td>
+<td class="normal" valign="top">aguacate</td>
+<td class="normal" valign="top">21</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Maria Hernandez</td>
+<td class="normal" valign="top">brocoli</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Marina Golio</td>
+<td class="normal" valign="top">toronja</td>
+<td class="normal" valign="top">19</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Pedro Terraza</td>
+<td class="normal" valign="top">limon</td>
+<td class="normal" valign="top">23</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Pedro Terraza</td>
+<td class="normal" valign="top">fresa</td>
+<td class="normal" valign="top">11</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Tito Lechuga</td>
+<td class="normal" valign="top">toronja</td>
+<td class="normal" valign="top">17</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Tito Lechuga</td>
+<td class="normal" valign="top">manzana</td>
+<td class="normal" valign="top">12</td>
+<td class="normal" valign="top">2</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Yann Rodriguez</td>
+<td class="normal" valign="top">calabaza</td>
+<td class="normal" valign="top">18</td>
+<td class="normal" valign="top">1</td>
+</tr>
+
+<tr>
+<td class="normal" valign="top">Yann Rodriguez</td>
+<td class="normal" valign="top">uva</td>
+<td class="normal" valign="top">15</td>
+<td class="normal" valign="top">2</td>
+</tr>
+</tbody></table>
+
+</body>
